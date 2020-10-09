@@ -16,3 +16,11 @@ function johnLennonFacts(facts){
   }
   return arr;
 }
+
+function iLoveTheBeatles(num){
+  var arr = new Array();
+  do{
+    arr.push("I Love the Beatles!");
+  } while(num<15);
+  return arr;
+}
